@@ -1,0 +1,116 @@
+html,
+body {
+    background: #F5F9F8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #FAF9FE;
+}
+
+.terms-background {
+    background: #F5F9F8;
+
+    .terms-middle-background {
+        background: #ffffff;
+    }
+}
+
+
+.terms-condition-inner {
+    .middle-image {
+        img {
+            width: 24%;
+
+            @media(max-width: 767px) {
+                width: 33%;
+            }
+
+            @media(max-width: 575px) {
+                width: 31%;
+            }
+
+            @media(max-width: 500px) {
+                width: 35%;
+            }
+
+            @media(max-width: 450px) {
+                width: 37%;
+            }
+
+            @media(max-width: 350px) {
+                width: 40%;
+            }
+        }
+    }
+
+    .free-wifi-text {
+        padding-bottom: 50px;
+
+        h1 {
+            color: #010506;
+            margin-top: 0px;
+            font-weight: 500;
+            font-size: 102px;
+            margin-bottom: 0px;
+
+            @media(max-width: 1199px) {
+                font-size: 83px;
+            }
+
+            @media(max-width: 991px) {
+                font-size: 58px;
+            }
+
+            @media(max-width: 767px) {
+                font-size: 48px;
+            }
+
+            @media(max-width: 475px) {
+                font-size: 38px;
+            }
+
+            @media(max-width: 376px) {
+                font-size: 30px;
+            }
+        }
+
+        h5 {
+            color: #35393C;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-top: 0px;
+
+            @media(max-width: 1199px) {
+                font-size: 18px;
+            }
+
+            @media(max-width: 991px) {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .introduction-and-detail {
+        text-align: left;
+
+        h5 {
+            text-transform: uppercase;
+            font-size: 16px;
+            color: #414141;
+            font-weight: 700;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #414141;
+            font-weight: 600;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    }
+}

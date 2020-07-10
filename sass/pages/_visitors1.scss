@@ -1,0 +1,69 @@
+.middle-background {
+
+    #gender_state {
+        font-size: 14px;
+        color: red;
+    }
+
+    .welcome-back-text {
+        padding-bottom: 50px;
+
+        h1 {
+            color: #010506;
+            margin-top: 0px;
+            font-weight: 500;
+            font-size: 102px;
+            margin-bottom: 0px;
+
+            @media(max-width: 1199px) {
+                font-size: 85px;
+            }
+
+            @media(max-width: 991px) {
+                font-size: 65px;
+            }
+
+            @media(max-width: 550px) {
+                font-size: 52px;
+            }
+
+            @media(max-width: 390px) {
+                font-size: 45px;
+            }
+
+            @media(max-width: 341px) {
+                font-size: 41px;
+            }
+
+            // @media(max-width: 350px) {
+            //     font-size: 50px;
+            // }
+        }
+
+        h5 {
+            color: #35393C;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-top: 0px;
+
+            @media(max-width: 1199px) {
+                font-size: 18px;
+            }
+
+            @media(max-width: 991px) {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            @media(max-width: 390px) {
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            @media(max-width: 341px) {
+                font-size: 11px;
+                font-weight: 700;
+            }
+        }
+    }
+}
